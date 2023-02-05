@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#rocket{
+    transform: rotate(-45deg);
+    position: relative;
+    top: 70vh;
+    left: 50vw;
+    animation-name: moverocket;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes moverocket {
+0%{
+    top: 70vh;
+    left: 50vw;
+}
+10%{
+    top: 20%;
+}
+20%{
+    transform: rotate(-140deg);
+}
+50%{
+    left: 10vw;
+}
+100%{
+    left: 0vw;
+}
+}
+header{
+    background-color: bisque;
+    height: 80vh;
+}
+footer{
+    background-color: rgb(88, 72, 50);
+    height: 20vh;
+}
