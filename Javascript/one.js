@@ -20,4 +20,3 @@ while (i1 < 10) {
     i1++;
 }
 console.log(fibonacci); 
-
